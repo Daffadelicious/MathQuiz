@@ -40,11 +40,13 @@ namespace MathQuiz
         // This integer variable keeps track of the 
         // remaining time.
         int timeLeft;
+        
 
 
         public Form1()
         {
             InitializeComponent();
+            currentDate.Text = DateTime.Now.ToString("dd MMMM yyyy");
         }
 
 
